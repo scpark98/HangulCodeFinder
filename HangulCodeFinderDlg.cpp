@@ -123,8 +123,8 @@ BOOL CHangulCodeFinderDlg::OnInitDialog()
 	// TODO: 여기에 추가 초기화 작업을 추가합니다.
 	m_resize.Create(this);
 
-	m_resize.Add(IDC_STATIC_ENCODING, 100, 0, 0, 0);
-	m_resize.Add(IDC_CHECK_UTF8, 100, 0, 0, 0);
+	m_resize.Add(IDC_STATIC_ENCODING, 0, 0, 0, 0);
+	m_resize.Add(IDC_CHECK_UTF8, 0, 0, 0, 0);
 
 	m_resize.Add(IDC_LIST, 0, 0, 100, 100);
 	m_resize.Add(IDC_SLIDER, 0, 100, 100, 0);
